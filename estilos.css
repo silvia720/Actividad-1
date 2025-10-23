@@ -1,0 +1,40 @@
+/* Sesión 2 — estilos en blanco
+   Sugerencia: toca 3 cosas para notar el efecto rápido:
+   1) tipografía (font-family), 2) color de fondo, 3) margen del body.
+*/
+:root {
+  --fondo: #0b1220;
+  --texto: #e8eef6;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%
+}
+
+body {
+  margin: 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background: var(--fondo);
+  color: var(--texto);
+}
+
+header {
+  margin-bottom: 12px
+}
+
+.subtitulo {
+  opacity: .85
+}
+
+#contenedor-p5 {
+  margin: 12px 0;
+  min-height: 360px;
+  border-radius: 1em;
+  border: 1px dashed rgba(255, 255, 255, .2);
+  padding: 8px
+}
