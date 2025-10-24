@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  if(borrarfondo) background(255, 0, 0)w
+  if(borrarfondo) background(255, 0, 0)
   //elegir color simple A/B
   if(usarcolorA){
     fill(0)
@@ -26,4 +26,5 @@ function keyPressed(){
   if(key === 'b' || key === 'B'){
     borrarfondo = !borrarfondo
   }
+
 }
